@@ -147,7 +147,8 @@
           <h4>GET IN TOUCH</h4>
           <p> Nullam dictum felis eu pede mollis pretium. </p>
           <!-- Contact FORM -->
-          <form class="contact-form mt-45" id="contact">           
+          <form class="contact-form mt-45" id="contact"  action="https://formspree.io/f/mpzogvvj"
+		  method="POST">           
             <!-- IF MAIL SENT SUCCESSFULLY -->
             <div id="success">
               <div role="alert" class="alert alert-success"> <strong>Thanks</strong> for using our template. Your message has been sent. </div>
@@ -156,22 +157,22 @@
             <div class="row">
               <div class="col-md-6 col-lg-6">
                 <div class="form-field">
-                  <input class="input-sm form-full" id="name" type="text" name="form-name" placeholder="Your Name">
+                  <input class="input-sm form-full" id="name" type="text" name="name" placeholder="Your Name">
                 </div>
                 <div class="form-field">
-                  <input class="input-sm form-full" id="email" type="text" name="form-email" placeholder="Email" >
+                  <input class="input-sm form-full" id="email" type="text" name="_replyto" placeholder="Email" >
                 </div>
                 <div class="form-field">
-                  <input class="input-sm form-full" id="sub" type="text" name="form-subject" placeholder="Subject">
+                  <input class="input-sm form-full" id="sub" type="text" name="subject" placeholder="Subject">
                 </div>
               </div>
               <div class="col-md-6 col-lg-6">
                 <div class="form-field">
-                  <textarea class="form-full" id="message" rows="7" name="form-message" placeholder="Your Message" ></textarea>
+                  <textarea class="form-full" id="message" rows="7" name="message" placeholder="Your Message" ></textarea>
                 </div>
               </div>
               <div class="col-md-12 col-lg-12 mt-30">
-                <button class="btn-text" type="button" id="submit" name="button"> Send Message </button>
+                <button class="btn-text" type="submit" id="submit" name="button" value="Send"> Send Message </button>
               </div>
             </div>
           </form>
@@ -271,6 +272,7 @@
 		<!-- Compiled and minified JavaScript -->
 		<script src="assets/js/jquery.appear.js" type="text/javascript"></script>
 		<script src="assets/js/custom.js" type="text/javascript"></script>
+		
 
 	</body>
 
