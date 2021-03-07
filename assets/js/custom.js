@@ -161,6 +161,8 @@ var datepicker = $('.datepicker');
 	 -------------------------------------------------*/
 	// $("body").append('<div id="style-switcher"></div>');
 	// $("#style-switcher").load("theme-option/swicher.html");
+// 	$("body").append('<div id="style-switcher"></div>');
+// 	$("#style-switcher").load("theme-option/swicher.html");
 
 
 
