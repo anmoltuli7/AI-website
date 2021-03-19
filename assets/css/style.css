@@ -49,7 +49,14 @@ body {
 	font-weight: 400;
 	font-family: 'Poppins', sans-serif;
 }
-
+@media (min-width: 992px){
+.col-lg-3 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 25%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 32%;
+    max-width: 35%;
+}}
 img {
     max-width: 100%;
     margin: -12px;
