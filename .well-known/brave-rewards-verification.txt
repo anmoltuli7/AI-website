@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: ai-website-97wqjpl2v-anmoltuli7.vercel.app
+Token: 136632e8feaa3c85505a2afbe39800832e636dcf7d515f352cd1ce83315cb201
